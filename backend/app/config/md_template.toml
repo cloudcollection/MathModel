@@ -1,0 +1,9 @@
+[sections]
+abstract = "Keep the abstract under 250 words and mention the main methods and results."
+problem_restatement = "Restate the problem in contest-paper style without copying the prompt verbatim."
+assumptions = "List assumptions with short justifications and explain why each is reasonable."
+model = "Define variables, parameters, objectives, constraints, and algorithms clearly."
+solution = "Describe the computational workflow and connect each subtask to code outputs."
+results = "Discuss numerical results, sensitivity, and limitations."
+conclusion = "Summarize conclusions and include practical recommendations or future work."
+
