@@ -1,8 +1,18 @@
 # Math Modeling Agent
 
-This repository is a compact, runnable implementation of a math modeling competition agent inspired by [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent).
+> A runnable multi-agent workspace for math modeling competitions.
 
-The app accepts a contest problem statement and optional data files, decomposes the problem into subtasks, generates and executes Python code in a Jupyter kernel, interprets the results, and writes a Markdown/docx paper.
+This repository is a compact implementation of a math modeling competition agent inspired by [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent).
+
+It accepts a contest problem statement and optional data files, decomposes the problem into subtasks, generates and executes Python code in a Jupyter kernel, interprets the results, and writes a Markdown/docx paper.
+
+## What It Does
+
+- Plan the solution workflow from a problem statement.
+- Generate and repair Python code for each subtask.
+- Execute code in an isolated Jupyter kernel.
+- Stream agent events to the browser in real time.
+- Produce `result.md` and `result.docx` for submission drafting.
 
 ## Architecture
 
